@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://kkgithub.com/Yumi10086/live2d/";
+const live2d_path = "https://fastly.jsdelivr.net/gh/Yumi10086/live2d@master/";
 const model_path="https://kkgithub.com/Yumi10086/live2d_api/";
 
 // 封装异步加载资源的方法
