@@ -26,7 +26,7 @@ function loadExternalResource(url, type) {
 	});
 }
 async function loadScriptsInOrder(){
-	if (screen.width >= 100) {//使用宽度判断设备是否适合加载
+	if (screen.width >= 768) {//使用宽度判断设备是否适合加载
 	await Promise.all([
 		loadExternalResource(live2d_path + "pixi.min.js", "js"),
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
