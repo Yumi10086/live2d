@@ -33,7 +33,7 @@ async function loadScriptsInOrder(){
 		loadExternalResource(live2d_path + "live2dcubismcore.min.js", "js"),
 		loadExternalResource("https://code.jquery.com/jquery-3.6.0.min.js", "js"),
 		loadExternalResource(live2d_path + "waifu.css", "css"),
-		loadExternalResource("https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css", "css")
+		loadExternalResource("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css", "css")
 	])
 	await loadExternalResource(live2d_path + "index.min.js", "js");
 	await loadExternalResource(live2d_path + "waifu-tips.js", "js");
